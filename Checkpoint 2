@@ -1,0 +1,3 @@
+Edit the Vendor.sol contract with a payable buyTokens() function
+
+```uint256 public constant tokensPerEth = 100;```
