@@ -1,0 +1,14 @@
+👩‍💻 Edit `YourToken.sol` to inherit the ERC20 token standard from OpenZeppelin.
+
+```// SPDX-License-Identifier: MIT
+pragma solidity 0.8.20;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+contract YourToken is ERC20 {
+    constructor() ERC20("Gold", "GLD") {
+        // Mint 1000 tokens * 10^18 на твой фронт-адрес
+        _mint(0xYUORADRESS, 1000 * 10 ** decimals());
+    }
+}
+```
