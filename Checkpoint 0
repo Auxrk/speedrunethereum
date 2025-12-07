@@ -3,7 +3,6 @@ Then download the challenge to your computer and install dependencies by running
 ```bash 
 npx create-eth@1.0.2 -e challenge-token-vendor challenge-token-vendor
 cd challenge-token-vendor
-}
 ```
 
 in the same terminal, start your local network (a blockchain emulator in your computer):
